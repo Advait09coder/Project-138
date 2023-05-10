@@ -169,3 +169,7 @@ function paddleInCanvas(){
     mouseY =0;
   }  
 }
+
+function modelLoaded(){
+    console.log("Model Loaded");
+}
