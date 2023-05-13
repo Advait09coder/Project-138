@@ -39,7 +39,6 @@ function setup(){
 
 
 function gotPoses(results){
-  console.log(results)
   if(results.length > 0){
     wristX = results[0].pose.rightWrist.x;
     wristY = results[0].pose.rightWrist.y;
